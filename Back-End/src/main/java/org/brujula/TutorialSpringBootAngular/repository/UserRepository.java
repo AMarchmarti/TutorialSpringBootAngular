@@ -3,7 +3,11 @@ package org.brujula.TutorialSpringBootAngular.repository;
 import org.brujula.TutorialSpringBootAngular.entities.User;
 import org.springframework.data.jpa.repository.JpaRepository;
 
+import java.util.Optional;
+
 public interface UserRepository  extends JpaRepository<User, Long> {
+
+    User findUserById(Long id);
 }
 
 
