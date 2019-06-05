@@ -1,6 +1,7 @@
 package org.brujula.TutorialSpringBootAngular.DataBase;
 
-import lombok.var;
+import org.brujula.TutorialSpringBootAngular.DataBase.repository.NoteRepository;
+import org.brujula.TutorialSpringBootAngular.DataBase.repository.NotebookRepository;
 import org.brujula.TutorialSpringBootAngular.model.Note;
 import org.brujula.TutorialSpringBootAngular.model.NoteBook;
 import org.springframework.beans.factory.annotation.Autowired;

@@ -1,4 +1,4 @@
-package org.brujula.TutorialSpringBootAngular.DataBase;
+package org.brujula.TutorialSpringBootAngular.DataBase.repository;
 
 import org.brujula.TutorialSpringBootAngular.model.NoteBook;
 import org.springframework.data.jpa.repository.JpaRepository;
